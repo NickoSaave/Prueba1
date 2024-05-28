@@ -1,0 +1,45 @@
+header{
+    background-color: rgb(73, 73, 73);
+    height: 13vh;
+}
+body{
+    background-color: rgb(168, 168, 168);
+}
+h1{
+    position: absolute;
+    top: 4vh;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    font-size: 5vh;
+    text-align: center;
+    color:rgb(129, 211, 249) 
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font: bold;
+    font-size: large;
+    text-align: center;
+    color:antiquewhite
+}
+p0{
+    position: relative;
+    top: 0.5vh;
+    left: 35%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: lighter;
+    text-align: center;
+    color: antiquewhite;
+}
+footer{
+    .left{background-color: rgb(97, 97, 97);}
+    .right{background-color: rgb(245, 129, 255);}
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: rgb(99, 99, 99);
+        height: 4vh;
+}
+}
